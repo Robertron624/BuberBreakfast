@@ -13,6 +13,7 @@ public class Breakfast
 
     public Breakfast(Guid id, string name, string description, DateTime startDateTime, DateTime endDateTime, DateTime lastModifiedDateTime, List<string> savory, List<string>? sweet)
     {
+        // Enforce invariants
         Id = id;
         Name = name;
         Description = description;
